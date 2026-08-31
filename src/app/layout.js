@@ -40,7 +40,7 @@ export async function generateMetadata() {
   return metadata;
 }
 
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default async function RootLayout({ children }) {
